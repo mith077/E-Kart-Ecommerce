@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce</title>
+    <link rel="stylesheet" href="Static/CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="Static/CSS/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row bg-light"><!--1st row start or header section start-->
+            <div class="col-md-12">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="index.html">E-Kart</a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="login.html">Logout</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="register.html">Register</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="login.html">Login</a>
+                          </li>
+                        </ul>
+                        <form class="d-flex">
+                          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                          <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+        </div><!--1st row end or header section end-->
+        <div class="row mt-3 p-2 bg-light"><!--2nd row start or main section start-->
+            <div class="col-md-3 bg-light p-3"><!--filter section start or side bar start-->
+                <h5>Filter by Category</h5><hr>
+                <a href="index.html">All</a><br>
+                <a href="#">Mobile</a><br>
+                <a href="#">Shoes</a><br>
+                <a href="#">Cloth</a><br><br>
+                <h5>Sort by Price</h5><hr>
+                <a href="#">High to Low</a><br>
+                <a href="#">Low to High</a><br><br>
+                <h5>Filter by Price</h5><hr>
+                <form action="#" method="get">
+                    <div class="mb-2">
+                        <label for="input1" class="form-label">Min</label>
+                        <input type="text" class="form-control" id="input1">
+                    </div>
+                    <div class="mb-2">
+                        <label for="input2" class="form-label">Max</label>
+                        <input type="text" class="form-control" id="input2">
+                    </div>
+                    <div class="mb-2">
+                        <input type="submit" value="Filter" class="btn btn-danger">
+                    </div>
+                </form>
+            </div><!--filter section end or side bar end-->
+
+            <div class="col-md-9 bg-light p-3"><!--product list start-->
+                <div class="row">
+                    <div class="col-md-3"><!--product 1 start-->
+                        <div class="card" style="width: 100%; height: auto;">
+                            <img src="Static/Images/one_plus.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">One Plus</h5>
+                              <p class="card-text"><strong>Price: </strong>Rs.34000</p>
+                              <a href="product_detail.html" class="btn btn-primary">See Details</a>
+                            </div>
+                          </div>
+                    </div><!--product 1 end-->
+                    <div class="col-md-3"><!--product 2 start-->
+                        <div class="card" style="width: 100%; height: auto;">
+                            <img src="Static/Images/one_plus.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">One Plus</h5>
+                              <p class="card-text"><strong>Price: </strong>Rs.34000</p>
+                              <a href="product_detail.html" class="btn btn-primary">See Details</a>
+                            </div>
+                          </div>
+                    </div><!--product 2 end-->
+                    <div class="col-md-3"><!--product 3 start-->
+                        <div class="card" style="width: 100%; height: auto;">
+                            <img src="Static/Images/one_plus.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">One Plus</h5>
+                              <p class="card-text"><strong>Price: </strong>Rs.34000</p>
+                              <a href="product_detail.html" class="btn btn-primary">See Details</a>
+                            </div>
+                          </div>
+                    </div><!--product 3 end-->
+                    <div class="col-md-3"><!--product 4 start-->
+                        <div class="card" style="width: 100%; height: auto;">
+                            <img src="Static/Images/one_plus.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">One Plus</h5>
+                              <p class="card-text"><strong>Price: </strong>Rs.34000</p>
+                              <a href="product_detail.html" class="btn btn-primary">See Details</a>
+                            </div>
+                          </div>
+                    </div><!--product 4 end-->
+                </div>
+            </div><!--product list end-->
+        </div><!--2nd row end or main section end-->
+
+        <div class="row mt-3 p-2 bg-light"><!--3rd row start or footer section start-->
+            <div class="col-md-4 bg-light p-3"><!--Address-->
+                <h5>Address</h5><hr>
+                22-B, 1<sup>st</sup> Floor,<br>
+                Rainbow Plaza, Shivar Chowk,<br>
+                Pimple Saudagar, Pune <br>
+                Maharashtra <br>
+                Contact : 9876543210
+            </div>
+            <div class="col-md-4 bg-light p-3"><!--Quick links-->
+                <h5>Quick Links</h5><hr>
+                <a href="index.html">Home</a><br>
+                <a href="#">About</a><br>
+                <a href="#">Contact</a><br>
+            </div>
+            <div class="col-md-4 bg-light p-3"><!--social media-->
+                <h5>Social Media</h5><hr>
+                <h3><a href="#" target="_blank"><i class="bi bi-linkedin"></i></a></h3>
+                <h3><a href="#" target="_blank"><i class="bi bi-github"></i></a></h3>
+                <h3><a href="#" target="_blank"><i class="bi bi-facebook"></i></a></h3>
+                <h3><a href="#" target="_blank"><i class="bi bi-twitter-x"></i></a></h3>
+            </div>
+            
+        </div><!--3rd row end or footer section end-->
+    </div>
+    
+    <script src="Static/JS/bootstrap.min.js"></script>
+    <script src="Static/JS/popper.js"></script>
+    
+</body>
+</html>
